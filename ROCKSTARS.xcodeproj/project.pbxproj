@@ -1,0 +1,1284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031310871ECD65EB006EF97E /* ServerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031310861ECD65EB006EF97E /* ServerRequest.swift */; };
+		031310891ECD660C006EF97E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031310881ECD660C006EF97E /* User.swift */; };
+		03EA8AA21EE68FAC0071B697 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA8AA11EE68FAC0071B697 /* TutorialViewController.swift */; };
+		04896D9EEE04E44A40CC1B9B /* Pods_ROCKSTARSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A458E1875B1B9DB454ADFD8 /* Pods_ROCKSTARSUITests.framework */; };
+		0FBE7EEB209541E2710CC55C /* Pods_ROCKSTARS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F00C96F43A35E04AB01A6A1 /* Pods_ROCKSTARS.framework */; };
+		10E0D4843C654B68C6AA0419 /* Pods_ROCKSTARSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D16BF4A90EDAB6A0645315B /* Pods_ROCKSTARSTests.framework */; };
+		1466029D1F2B112E00B8DE98 /* UserPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466029C1F2B112E00B8DE98 /* UserPasswordVC.swift */; };
+		2F083C1F1EC5C82D0035C574 /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F083C1E1EC5C82D0035C574 /* Reach.swift */; };
+		2F094DB31F0E087E00B58889 /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F094DB21F0E087E00B58889 /* Print.swift */; };
+		2F09F3691EC96994009C9F0A /* SearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F09F3681EC96994009C9F0A /* SearchViewCell.swift */; };
+		2F0DA57D1ED56AAD00DBFD54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0DA57C1ED56AAD00DBFD54 /* Main.storyboard */; };
+		2F0DA5801ED56DBC00DBFD54 /* EditProfileVenueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0DA57E1ED56DBC00DBFD54 /* EditProfileVenueVC.swift */; };
+		2F0DA5811ED56DBC00DBFD54 /* Profile_VenueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0DA57F1ED56DBC00DBFD54 /* Profile_VenueVC.swift */; };
+		2F0DA5831ED56DD900DBFD54 /* RegisterEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0DA5821ED56DD900DBFD54 /* RegisterEditVC.swift */; };
+		2F0DA5891ED5BD6000DBFD54 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0DA5861ED5BD6000DBFD54 /* TPKeyboardAvoidingScrollView.m */; };
+		2F0DA58A1ED5BD6000DBFD54 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0DA5881ED5BD6000DBFD54 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		2F12A1481ED6A1C000F31C48 /* VenueJobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F12A1471ED6A1C000F31C48 /* VenueJobsVC.swift */; };
+		2F12A14A1ED6A1E400F31C48 /* VenueJob_ActiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F12A1491ED6A1E400F31C48 /* VenueJob_ActiveVC.swift */; };
+		2F154B371EE52AFC008BD26D /* Search_UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F154B361EE52AFC008BD26D /* Search_UserVC.swift */; };
+		2F1A21251EF1498E000F6C5E /* WithDrawVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A21241EF1498E000F6C5E /* WithDrawVC.swift */; };
+		2F1A21281EF14EA3000F6C5E /* JVFloatLabeledTextField1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A21271EF14EA3000F6C5E /* JVFloatLabeledTextField1.m */; };
+		2F20EA4F1EDFDBF60099CD56 /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F20EA4E1EDFDBF60099CD56 /* Tutorial.storyboard */; };
+		2F2181741F0B6E8000DE47B8 /* ExtensionsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2181731F0B6E8000DE47B8 /* ExtensionsClass.swift */; };
+		2F2517771EC34ABC001B416E /* Register_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2517761EC34ABC001B416E /* Register_struct.swift */; };
+		2F2DC6201ECF1E140014DAED /* Skills_RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DC61E1ECF1E140014DAED /* Skills_RegisterVC.swift */; };
+		2F2DC6211ECF1E140014DAED /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DC61F1ECF1E140014DAED /* RegisterVC.swift */; };
+		2F2DC6231ECF1F780014DAED /* Dashboard_User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2DC6221ECF1F780014DAED /* Dashboard_User.storyboard */; };
+		2F2DF4781EC43BAF00799BD0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DF4771EC43BAF00799BD0 /* LoginVC.swift */; };
+		2F2DF47C1EC440D700799BD0 /* RegisterVenueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DF47B1EC440D700799BD0 /* RegisterVenueVC.swift */; };
+		2F2DF47E1EC4568600799BD0 /* Register_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DF47D1EC4568600799BD0 /* Register_Data.swift */; };
+		2F2DF4821EC4663B00799BD0 /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DF4811EC4663B00799BD0 /* ForgotVC.swift */; };
+		2F2DF4841EC467E500799BD0 /* Rating_KeepSmil_RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DF4831EC467E500799BD0 /* Rating_KeepSmil_RegisterVC.swift */; };
+		2F333A691EDFDD5200946EBE /* SearchAcceptedEmpInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F333A681EDFDD5200946EBE /* SearchAcceptedEmpInfoVC.swift */; };
+		2F333A6B1EDFDD6100946EBE /* SearchAcceptedVenueInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F333A6A1EDFDD6100946EBE /* SearchAcceptedVenueInfoVC.swift */; };
+		2F333A6F1EE0014600946EBE /* RockStarProfileVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F333A6E1EE0014600946EBE /* RockStarProfileVenue.swift */; };
+		2F3688A61EEFBA9F00FFAD16 /* VenueJob_AdvertiseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3688A51EEFBA9F00FFAD16 /* VenueJob_AdvertiseVC.swift */; };
+		2F3F86FF1ED8054200F88316 /* ApplicantListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F86FE1ED8054200F88316 /* ApplicantListVC.swift */; };
+		2F6033351ED6DFC600C9BC0C /* ActivityVenueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6033341ED6DFC600C9BC0C /* ActivityVenueVC.swift */; };
+		2F6033381ED6F24F00C9BC0C /* VenuJob_ActiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6033371ED6F24F00C9BC0C /* VenuJob_ActiveCell.swift */; };
+		2F6380231EF246D000513B46 /*  RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6380221EF246D000513B46 /*  RatingViewController.swift */; };
+		2F63CE4D1F1CAC67001C18C1 /* RockStarProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63CE4B1F1CAC67001C18C1 /* RockStarProfileVC.swift */; };
+		2F63CE4E1F1CAC67001C18C1 /* ApplicantProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63CE4C1F1CAC67001C18C1 /* ApplicantProfileVC.swift */; };
+		2F6AFC151ED4027300120E76 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6AFC141ED4027300120E76 /* Launch Screen.storyboard */; };
+		2F7153A01EBB363200ACB4B6 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71539F1EBB363200ACB4B6 /* CommonFunctions.swift */; };
+		2F7153A41EBB454900ACB4B6 /* B68UIFloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7153A31EBB454900ACB4B6 /* B68UIFloatLabelTextField.swift */; };
+		2F7A69111EEEC35F0025F952 /* Facebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A69101EEEC35F0025F952 /* Facebook.swift */; };
+		2F7DDF711EC09F63005BB7DE /* NapySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7DDF701EC09F63005BB7DE /* NapySlider.swift */; };
+		2F7DDF731EC0A0B9005BB7DE /* Rating_RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7DDF721EC0A0B9005BB7DE /* Rating_RegisterVC.swift */; };
+		2F8E61191EBB27AE00C6727C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E61181EBB27AE00C6727C /* Constants.swift */; };
+		2FA070F31EDEB321006A5C26 /* Horizental_spritis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA070F21EDEB321006A5C26 /* Horizental_spritis.swift */; };
+		2FA070F51EDED667006A5C26 /* UpdateSkillsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA070F41EDED667006A5C26 /* UpdateSkillsVC.swift */; };
+		2FA667C91EDC505100DF1ACA /* ApplyJobVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA667C81EDC505100DF1ACA /* ApplyJobVC.swift */; };
+		2FCA38DD1ECDD73B00EB7F70 /* Dashboard_Venue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCA38DB1ECDD73B00EB7F70 /* Dashboard_Venue.storyboard */; };
+		2FCA38E71ECDDB2D00EB7F70 /* Home_UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA38E31ECDDB2D00EB7F70 /* Home_UserVC.swift */; };
+		2FCA38E81ECDDB2D00EB7F70 /* Profile_UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA38E41ECDDB2D00EB7F70 /* Profile_UserVC.swift */; };
+		2FCA38E91ECDDB2D00EB7F70 /* Activity_UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA38E51ECDDB2D00EB7F70 /* Activity_UserVC.swift */; };
+		2FD6D5811EDD504C0056B620 /* ApplicantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6D5801EDD504C0056B620 /* ApplicantCell.swift */; };
+		2FD6D5831EDD74E20056B620 /* Horizental_cockTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6D5821EDD74E20056B620 /* Horizental_cockTail.swift */; };
+		2FE16E361ECC681600179B97 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE16E311ECC681600179B97 /* JVFloatLabeledTextField.m */; };
+		2FE16E371ECC681600179B97 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE16E331ECC681600179B97 /* JVFloatLabeledTextView.m */; };
+		2FE16E381ECC681600179B97 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE16E351ECC681600179B97 /* NSString+TextDirectionality.m */; };
+		2FE16E411ECC7FAD00179B97 /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE16E3A1ECC7FAD00179B97 /* Cairo-Black.ttf */; };
+		2FE16E421ECC7FAD00179B97 /* Cairo-Black.ttf.html in Resources */ = {isa = PBXBuildFile; fileRef = 2FE16E3B1ECC7FAD00179B97 /* Cairo-Black.ttf.html */; };
+		2FE16E431ECC7FAD00179B97 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE16E3C1ECC7FAD00179B97 /* Cairo-Bold.ttf */; };
+		2FE16E441ECC7FAD00179B97 /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE16E3D1ECC7FAD00179B97 /* Cairo-ExtraLight.ttf */; };
+		2FE16E451ECC7FAD00179B97 /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE16E3E1ECC7FAD00179B97 /* Cairo-Light.ttf */; };
+		2FE16E461ECC7FAD00179B97 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE16E3F1ECC7FAD00179B97 /* Cairo-Regular.ttf */; };
+		2FE16E471ECC7FAD00179B97 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FE16E401ECC7FAD00179B97 /* Cairo-SemiBold.ttf */; };
+		2FECE6681ED6C7CD00DE45A2 /* Home_VenueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FECE6671ED6C7CD00DE45A2 /* Home_VenueVC.swift */; };
+		2FF8C9B91EB8906800187D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8C9B81EB8906800187D2B /* AppDelegate.swift */; };
+		2FF8C9C01EB8906900187D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF8C9BF1EB8906900187D2B /* Assets.xcassets */; };
+		2FF8C9CE1EB8906900187D2B /* ROCKSTARSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8C9CD1EB8906900187D2B /* ROCKSTARSTests.swift */; };
+		2FF8C9D91EB8906900187D2B /* ROCKSTARSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8C9D81EB8906900187D2B /* ROCKSTARSUITests.swift */; };
+		2FFF9CFD1EF4088E00D55F06 /* DisablePasteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF9CFC1EF4088E00D55F06 /* DisablePasteTextField.swift */; };
+		F0D76E1F1EC9A5D8004899F5 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D76E1E1EC9A5D8004899F5 /* SSASideMenu.swift */; };
+		F0D76E211EC9A608004899F5 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D76E201EC9A608004899F5 /* DrawerViewController.swift */; };
+		F0D76E231EC9B38C004899F5 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D76E221EC9B38C004899F5 /* FilterViewController.swift */; };
+		F0D76E271EC9BD26004899F5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D76E261EC9BD26004899F5 /* Reachability.swift */; };
+		F0D76E2D1EC9D9C6004899F5 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D76E2C1EC9D9C6004899F5 /* FloatRatingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FF8C9CA1EB8906900187D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF8C9AD1EB8906800187D2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF8C9B41EB8906800187D2B;
+			remoteInfo = ROCKSTARS;
+		};
+		2FF8C9D51EB8906900187D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF8C9AD1EB8906800187D2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF8C9B41EB8906800187D2B;
+			remoteInfo = ROCKSTARS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031310861ECD65EB006EF97E /* ServerRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerRequest.swift; path = ../ServerRequest.swift; sourceTree = "<group>"; };
+		031310881ECD660C006EF97E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		03EA8AA11EE68FAC0071B697 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		0D16BF4A90EDAB6A0645315B /* Pods_ROCKSTARSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROCKSTARSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1466029C1F2B112E00B8DE98 /* UserPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPasswordVC.swift; sourceTree = "<group>"; };
+		1C49D99D7EBFBA1237DA7598 /* Pods-ROCKSTARSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROCKSTARSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROCKSTARSTests/Pods-ROCKSTARSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F083C1E1EC5C82D0035C574 /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		2F094DB21F0E087E00B58889 /* Print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
+		2F09F3681EC96994009C9F0A /* SearchViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
+		2F0DA57C1ED56AAD00DBFD54 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2F0DA57E1ED56DBC00DBFD54 /* EditProfileVenueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileVenueVC.swift; sourceTree = "<group>"; };
+		2F0DA57F1ED56DBC00DBFD54 /* Profile_VenueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile_VenueVC.swift; sourceTree = "<group>"; };
+		2F0DA5821ED56DD900DBFD54 /* RegisterEditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterEditVC.swift; sourceTree = "<group>"; };
+		2F0DA5851ED5BD6000DBFD54 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		2F0DA5861ED5BD6000DBFD54 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		2F0DA5871ED5BD6000DBFD54 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		2F0DA5881ED5BD6000DBFD54 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		2F12A1471ED6A1C000F31C48 /* VenueJobsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueJobsVC.swift; sourceTree = "<group>"; };
+		2F12A1491ED6A1E400F31C48 /* VenueJob_ActiveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueJob_ActiveVC.swift; sourceTree = "<group>"; };
+		2F154B361EE52AFC008BD26D /* Search_UserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search_UserVC.swift; sourceTree = "<group>"; };
+		2F1A21241EF1498E000F6C5E /* WithDrawVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithDrawVC.swift; sourceTree = "<group>"; };
+		2F1A21261EF14EA3000F6C5E /* JVFloatLabeledTextField1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField1.h; sourceTree = "<group>"; };
+		2F1A21271EF14EA3000F6C5E /* JVFloatLabeledTextField1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField1.m; sourceTree = "<group>"; };
+		2F20EA4E1EDFDBF60099CD56 /* Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
+		2F2181731F0B6E8000DE47B8 /* ExtensionsClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionsClass.swift; sourceTree = "<group>"; };
+		2F2517761EC34ABC001B416E /* Register_struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register_struct.swift; sourceTree = "<group>"; };
+		2F2DC61E1ECF1E140014DAED /* Skills_RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skills_RegisterVC.swift; sourceTree = "<group>"; };
+		2F2DC61F1ECF1E140014DAED /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		2F2DC6221ECF1F780014DAED /* Dashboard_User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard_User.storyboard; sourceTree = "<group>"; };
+		2F2DF4771EC43BAF00799BD0 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		2F2DF47B1EC440D700799BD0 /* RegisterVenueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVenueVC.swift; sourceTree = "<group>"; };
+		2F2DF47D1EC4568600799BD0 /* Register_Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register_Data.swift; sourceTree = "<group>"; };
+		2F2DF4811EC4663B00799BD0 /* ForgotVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
+		2F2DF4831EC467E500799BD0 /* Rating_KeepSmil_RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating_KeepSmil_RegisterVC.swift; sourceTree = "<group>"; };
+		2F333A681EDFDD5200946EBE /* SearchAcceptedEmpInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAcceptedEmpInfoVC.swift; sourceTree = "<group>"; };
+		2F333A6A1EDFDD6100946EBE /* SearchAcceptedVenueInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAcceptedVenueInfoVC.swift; sourceTree = "<group>"; };
+		2F333A6E1EE0014600946EBE /* RockStarProfileVenue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RockStarProfileVenue.swift; sourceTree = "<group>"; };
+		2F3688A51EEFBA9F00FFAD16 /* VenueJob_AdvertiseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueJob_AdvertiseVC.swift; sourceTree = "<group>"; };
+		2F3F86FE1ED8054200F88316 /* ApplicantListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicantListVC.swift; sourceTree = "<group>"; };
+		2F6033341ED6DFC600C9BC0C /* ActivityVenueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityVenueVC.swift; sourceTree = "<group>"; };
+		2F6033371ED6F24F00C9BC0C /* VenuJob_ActiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuJob_ActiveCell.swift; sourceTree = "<group>"; };
+		2F605E111EF41F0A0033AA85 /* ROCKSTARS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ROCKSTARS.entitlements; sourceTree = "<group>"; };
+		2F6380221EF246D000513B46 /*  RatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " RatingViewController.swift"; sourceTree = "<group>"; };
+		2F63CE4B1F1CAC67001C18C1 /* RockStarProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RockStarProfileVC.swift; sourceTree = "<group>"; };
+		2F63CE4C1F1CAC67001C18C1 /* ApplicantProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicantProfileVC.swift; sourceTree = "<group>"; };
+		2F6AFC141ED4027300120E76 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2F71539F1EBB363200ACB4B6 /* CommonFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		2F7153A31EBB454900ACB4B6 /* B68UIFloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B68UIFloatLabelTextField.swift; sourceTree = "<group>"; };
+		2F7A69101EEEC35F0025F952 /* Facebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facebook.swift; sourceTree = "<group>"; };
+		2F7DDF701EC09F63005BB7DE /* NapySlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NapySlider.swift; sourceTree = "<group>"; };
+		2F7DDF721EC0A0B9005BB7DE /* Rating_RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating_RegisterVC.swift; sourceTree = "<group>"; };
+		2F8E61181EBB27AE00C6727C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2FA070F21EDEB321006A5C26 /* Horizental_spritis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Horizental_spritis.swift; sourceTree = "<group>"; };
+		2FA070F41EDED667006A5C26 /* UpdateSkillsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateSkillsVC.swift; sourceTree = "<group>"; };
+		2FA667C81EDC505100DF1ACA /* ApplyJobVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyJobVC.swift; sourceTree = "<group>"; };
+		2FCA38DB1ECDD73B00EB7F70 /* Dashboard_Venue.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard_Venue.storyboard; sourceTree = "<group>"; };
+		2FCA38E31ECDDB2D00EB7F70 /* Home_UserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home_UserVC.swift; sourceTree = "<group>"; };
+		2FCA38E41ECDDB2D00EB7F70 /* Profile_UserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile_UserVC.swift; sourceTree = "<group>"; };
+		2FCA38E51ECDDB2D00EB7F70 /* Activity_UserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity_UserVC.swift; sourceTree = "<group>"; };
+		2FD6D5801EDD504C0056B620 /* ApplicantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicantCell.swift; sourceTree = "<group>"; };
+		2FD6D5821EDD74E20056B620 /* Horizental_cockTail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Horizental_cockTail.swift; sourceTree = "<group>"; };
+		2FE16E2F1ECC681400179B97 /* ROCKSTARS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ROCKSTARS-Bridging-Header.h"; sourceTree = "<group>"; };
+		2FE16E301ECC681600179B97 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		2FE16E311ECC681600179B97 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		2FE16E321ECC681600179B97 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		2FE16E331ECC681600179B97 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		2FE16E341ECC681600179B97 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		2FE16E351ECC681600179B97 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		2FE16E3A1ECC7FAD00179B97 /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		2FE16E3B1ECC7FAD00179B97 /* Cairo-Black.ttf.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Cairo-Black.ttf.html"; sourceTree = "<group>"; };
+		2FE16E3C1ECC7FAD00179B97 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		2FE16E3D1ECC7FAD00179B97 /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2FE16E3E1ECC7FAD00179B97 /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		2FE16E3F1ECC7FAD00179B97 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		2FE16E401ECC7FAD00179B97 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		2FECE6671ED6C7CD00DE45A2 /* Home_VenueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home_VenueVC.swift; sourceTree = "<group>"; };
+		2FF8C9B51EB8906800187D2B /* ROCKSTARS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROCKSTARS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF8C9B81EB8906800187D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FF8C9BF1EB8906900187D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FF8C9C41EB8906900187D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF8C9C91EB8906900187D2B /* ROCKSTARSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROCKSTARSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF8C9CD1EB8906900187D2B /* ROCKSTARSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROCKSTARSTests.swift; sourceTree = "<group>"; };
+		2FF8C9CF1EB8906900187D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF8C9D41EB8906900187D2B /* ROCKSTARSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROCKSTARSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF8C9D81EB8906900187D2B /* ROCKSTARSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROCKSTARSUITests.swift; sourceTree = "<group>"; };
+		2FF8C9DA1EB8906900187D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFF9CFC1EF4088E00D55F06 /* DisablePasteTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisablePasteTextField.swift; sourceTree = "<group>"; };
+		393295BE8D6EA2C29A42B638 /* Pods-ROCKSTARSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROCKSTARSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROCKSTARSUITests/Pods-ROCKSTARSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A458E1875B1B9DB454ADFD8 /* Pods_ROCKSTARSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROCKSTARSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F00C96F43A35E04AB01A6A1 /* Pods_ROCKSTARS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROCKSTARS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF89276ADB21431E0284F26 /* Pods-ROCKSTARS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROCKSTARS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROCKSTARS/Pods-ROCKSTARS.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB020A0B20EE6CC933CABDE /* Pods-ROCKSTARSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROCKSTARSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ROCKSTARSUITests/Pods-ROCKSTARSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D76E1E1EC9A5D8004899F5 /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		F0D76E201EC9A608004899F5 /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		F0D76E221EC9B38C004899F5 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		F0D76E261EC9BD26004899F5 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		F0D76E2C1EC9D9C6004899F5 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		F854CA1ECF5CE42FE103622F /* Pods-ROCKSTARSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROCKSTARSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROCKSTARSTests/Pods-ROCKSTARSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAB899FBCFC6A905925D54E4 /* Pods-ROCKSTARS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROCKSTARS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ROCKSTARS/Pods-ROCKSTARS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FF8C9B21EB8906800187D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBE7EEB209541E2710CC55C /* Pods_ROCKSTARS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF8C9C61EB8906900187D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E0D4843C654B68C6AA0419 /* Pods_ROCKSTARSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF8C9D11EB8906900187D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04896D9EEE04E44A40CC1B9B /* Pods_ROCKSTARSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F09F3621EC968E5009C9F0A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2F083C1E1EC5C82D0035C574 /* Reach.swift */,
+				2F7DDF701EC09F63005BB7DE /* NapySlider.swift */,
+				2FD6D5821EDD74E20056B620 /* Horizental_cockTail.swift */,
+				2FA070F21EDEB321006A5C26 /* Horizental_spritis.swift */,
+				2F7153A31EBB454900ACB4B6 /* B68UIFloatLabelTextField.swift */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2F09F3631EC96919009C9F0A /* CommonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				031310861ECD65EB006EF97E /* ServerRequest.swift */,
+				2F71539F1EBB363200ACB4B6 /* CommonFunctions.swift */,
+				2F8E61181EBB27AE00C6727C /* Constants.swift */,
+			);
+			name = CommonClasses;
+			sourceTree = "<group>";
+		};
+		2F09F3641EC96959009C9F0A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F6AFC161ED4619C00120E76 /* VenueClasses */,
+				2FCA38E11ECDDB1300EB7F70 /* UserClasses */,
+				F0D76E1E1EC9A5D8004899F5 /* SSASideMenu.swift */,
+				2F7DDF721EC0A0B9005BB7DE /* Rating_RegisterVC.swift */,
+				03EA8AA11EE68FAC0071B697 /* TutorialViewController.swift */,
+				2F2517761EC34ABC001B416E /* Register_struct.swift */,
+				2F2DF4771EC43BAF00799BD0 /* LoginVC.swift */,
+				2F2DF47B1EC440D700799BD0 /* RegisterVenueVC.swift */,
+				2F2DF4811EC4663B00799BD0 /* ForgotVC.swift */,
+				2F2DF4831EC467E500799BD0 /* Rating_KeepSmil_RegisterVC.swift */,
+				F0D76E201EC9A608004899F5 /* DrawerViewController.swift */,
+				F0D76E221EC9B38C004899F5 /* FilterViewController.swift */,
+				F0D76E2C1EC9D9C6004899F5 /* FloatRatingView.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2F09F3671EC96985009C9F0A /* CellClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2F09F3681EC96994009C9F0A /* SearchViewCell.swift */,
+			);
+			name = CellClasses;
+			sourceTree = "<group>";
+		};
+		2F09F36A1EC9699F009C9F0A /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				031310881ECD660C006EF97E /* User.swift */,
+				F0D76E261EC9BD26004899F5 /* Reachability.swift */,
+				2F2DF47D1EC4568600799BD0 /* Register_Data.swift */,
+			);
+			name = ModelClasses;
+			sourceTree = "<group>";
+		};
+		2F09F36B1EC969C2009C9F0A /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				2F20EA4E1EDFDBF60099CD56 /* Tutorial.storyboard */,
+				2F0DA57C1ED56AAD00DBFD54 /* Main.storyboard */,
+				2F2DC6221ECF1F780014DAED /* Dashboard_User.storyboard */,
+				2FCA38DB1ECDD73B00EB7F70 /* Dashboard_Venue.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		2F0DA5841ED5BD4700DBFD54 /* TPKeyBoardClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2F0DA5851ED5BD6000DBFD54 /* TPKeyboardAvoidingScrollView.h */,
+				2F0DA5861ED5BD6000DBFD54 /* TPKeyboardAvoidingScrollView.m */,
+				2F0DA5871ED5BD6000DBFD54 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				2F0DA5881ED5BD6000DBFD54 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = TPKeyBoardClasses;
+			sourceTree = "<group>";
+		};
+		2F6033361ED6F22300C9BC0C /* CellClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2F6033371ED6F24F00C9BC0C /* VenuJob_ActiveCell.swift */,
+				2FD6D5801EDD504C0056B620 /* ApplicantCell.swift */,
+			);
+			name = CellClasses;
+			sourceTree = "<group>";
+		};
+		2F6AFC161ED4619C00120E76 /* VenueClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2F6033361ED6F22300C9BC0C /* CellClasses */,
+				2F0DA57E1ED56DBC00DBFD54 /* EditProfileVenueVC.swift */,
+				2F094DB21F0E087E00B58889 /* Print.swift */,
+				2F3688A51EEFBA9F00FFAD16 /* VenueJob_AdvertiseVC.swift */,
+				2F333A6A1EDFDD6100946EBE /* SearchAcceptedVenueInfoVC.swift */,
+				2F333A6E1EE0014600946EBE /* RockStarProfileVenue.swift */,
+				2F0DA57F1ED56DBC00DBFD54 /* Profile_VenueVC.swift */,
+				2F12A1471ED6A1C000F31C48 /* VenueJobsVC.swift */,
+				2F12A1491ED6A1E400F31C48 /* VenueJob_ActiveVC.swift */,
+				2FECE6671ED6C7CD00DE45A2 /* Home_VenueVC.swift */,
+				2F6380221EF246D000513B46 /*  RatingViewController.swift */,
+				2F6033341ED6DFC600C9BC0C /* ActivityVenueVC.swift */,
+				2F3F86FE1ED8054200F88316 /* ApplicantListVC.swift */,
+				2F63CE4B1F1CAC67001C18C1 /* RockStarProfileVC.swift */,
+				2F63CE4C1F1CAC67001C18C1 /* ApplicantProfileVC.swift */,
+			);
+			name = VenueClasses;
+			sourceTree = "<group>";
+		};
+		2FCA38E11ECDDB1300EB7F70 /* UserClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A69101EEEC35F0025F952 /* Facebook.swift */,
+				2F154B361EE52AFC008BD26D /* Search_UserVC.swift */,
+				2F0DA5821ED56DD900DBFD54 /* RegisterEditVC.swift */,
+				2F333A681EDFDD5200946EBE /* SearchAcceptedEmpInfoVC.swift */,
+				2F2DC61E1ECF1E140014DAED /* Skills_RegisterVC.swift */,
+				2F2DC61F1ECF1E140014DAED /* RegisterVC.swift */,
+				2FCA38E31ECDDB2D00EB7F70 /* Home_UserVC.swift */,
+				2FCA38E41ECDDB2D00EB7F70 /* Profile_UserVC.swift */,
+				2FCA38E51ECDDB2D00EB7F70 /* Activity_UserVC.swift */,
+				2FA667C81EDC505100DF1ACA /* ApplyJobVC.swift */,
+				2FA070F41EDED667006A5C26 /* UpdateSkillsVC.swift */,
+				2F1A21241EF1498E000F6C5E /* WithDrawVC.swift */,
+				1466029C1F2B112E00B8DE98 /* UserPasswordVC.swift */,
+			);
+			name = UserClasses;
+			sourceTree = "<group>";
+		};
+		2FE16E2E1ECC67E900179B97 /* jvFloatClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2F1A21261EF14EA3000F6C5E /* JVFloatLabeledTextField1.h */,
+				2F1A21271EF14EA3000F6C5E /* JVFloatLabeledTextField1.m */,
+				2FE16E301ECC681600179B97 /* JVFloatLabeledTextField.h */,
+				2FE16E311ECC681600179B97 /* JVFloatLabeledTextField.m */,
+				2FE16E321ECC681600179B97 /* JVFloatLabeledTextView.h */,
+				2FE16E331ECC681600179B97 /* JVFloatLabeledTextView.m */,
+				2FE16E341ECC681600179B97 /* NSString+TextDirectionality.h */,
+				2FE16E351ECC681600179B97 /* NSString+TextDirectionality.m */,
+				2FE16E2F1ECC681400179B97 /* ROCKSTARS-Bridging-Header.h */,
+			);
+			name = jvFloatClasses;
+			sourceTree = "<group>";
+		};
+		2FE16E391ECC7F9200179B97 /* CarioFontFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2FE16E3A1ECC7FAD00179B97 /* Cairo-Black.ttf */,
+				2FE16E3B1ECC7FAD00179B97 /* Cairo-Black.ttf.html */,
+				2FE16E3C1ECC7FAD00179B97 /* Cairo-Bold.ttf */,
+				2FE16E3D1ECC7FAD00179B97 /* Cairo-ExtraLight.ttf */,
+				2FE16E3E1ECC7FAD00179B97 /* Cairo-Light.ttf */,
+				2FE16E3F1ECC7FAD00179B97 /* Cairo-Regular.ttf */,
+				2FE16E401ECC7FAD00179B97 /* Cairo-SemiBold.ttf */,
+			);
+			name = CarioFontFiles;
+			sourceTree = "<group>";
+		};
+		2FF8C9AC1EB8906800187D2B = {
+			isa = PBXGroup;
+			children = (
+				2F6AFC141ED4027300120E76 /* Launch Screen.storyboard */,
+				2FF8C9B71EB8906800187D2B /* ROCKSTARS */,
+				2FF8C9CC1EB8906900187D2B /* ROCKSTARSTests */,
+				2FF8C9D71EB8906900187D2B /* ROCKSTARSUITests */,
+				2FF8C9B61EB8906800187D2B /* Products */,
+				DE7363F0D091D966DB5D89FF /* Pods */,
+				36E2F587EF06235E0F0877F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		2FF8C9B61EB8906800187D2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF8C9B51EB8906800187D2B /* ROCKSTARS.app */,
+				2FF8C9C91EB8906900187D2B /* ROCKSTARSTests.xctest */,
+				2FF8C9D41EB8906900187D2B /* ROCKSTARSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FF8C9B71EB8906800187D2B /* ROCKSTARS */ = {
+			isa = PBXGroup;
+			children = (
+				2F605E111EF41F0A0033AA85 /* ROCKSTARS.entitlements */,
+				2FFF9CFC1EF4088E00D55F06 /* DisablePasteTextField.swift */,
+				2F0DA5841ED5BD4700DBFD54 /* TPKeyBoardClasses */,
+				2FE16E391ECC7F9200179B97 /* CarioFontFiles */,
+				2FE16E2E1ECC67E900179B97 /* jvFloatClasses */,
+				2F09F36B1EC969C2009C9F0A /* StoryBoards */,
+				2F09F36A1EC9699F009C9F0A /* ModelClasses */,
+				2F09F3671EC96985009C9F0A /* CellClasses */,
+				2F2181731F0B6E8000DE47B8 /* ExtensionsClass.swift */,
+				2F09F3641EC96959009C9F0A /* ViewControllers */,
+				2F09F3631EC96919009C9F0A /* CommonClasses */,
+				2F09F3621EC968E5009C9F0A /* SupportingFiles */,
+				2FF8C9B81EB8906800187D2B /* AppDelegate.swift */,
+				2FF8C9BF1EB8906900187D2B /* Assets.xcassets */,
+				2FF8C9C41EB8906900187D2B /* Info.plist */,
+			);
+			path = ROCKSTARS;
+			sourceTree = "<group>";
+		};
+		2FF8C9CC1EB8906900187D2B /* ROCKSTARSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF8C9CD1EB8906900187D2B /* ROCKSTARSTests.swift */,
+				2FF8C9CF1EB8906900187D2B /* Info.plist */,
+			);
+			path = ROCKSTARSTests;
+			sourceTree = "<group>";
+		};
+		2FF8C9D71EB8906900187D2B /* ROCKSTARSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF8C9D81EB8906900187D2B /* ROCKSTARSUITests.swift */,
+				2FF8C9DA1EB8906900187D2B /* Info.plist */,
+			);
+			path = ROCKSTARSUITests;
+			sourceTree = "<group>";
+		};
+		36E2F587EF06235E0F0877F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F00C96F43A35E04AB01A6A1 /* Pods_ROCKSTARS.framework */,
+				0D16BF4A90EDAB6A0645315B /* Pods_ROCKSTARSTests.framework */,
+				6A458E1875B1B9DB454ADFD8 /* Pods_ROCKSTARSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE7363F0D091D966DB5D89FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABF89276ADB21431E0284F26 /* Pods-ROCKSTARS.debug.xcconfig */,
+				FAB899FBCFC6A905925D54E4 /* Pods-ROCKSTARS.release.xcconfig */,
+				1C49D99D7EBFBA1237DA7598 /* Pods-ROCKSTARSTests.debug.xcconfig */,
+				F854CA1ECF5CE42FE103622F /* Pods-ROCKSTARSTests.release.xcconfig */,
+				EAB020A0B20EE6CC933CABDE /* Pods-ROCKSTARSUITests.debug.xcconfig */,
+				393295BE8D6EA2C29A42B638 /* Pods-ROCKSTARSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FF8C9B41EB8906800187D2B /* ROCKSTARS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF8C9DD1EB8906900187D2B /* Build configuration list for PBXNativeTarget "ROCKSTARS" */;
+			buildPhases = (
+				3C1BA485FB67E5F033C3583C /* [CP] Check Pods Manifest.lock */,
+				9FE2E9D56AFFCF6BE335D632 /* [CP] Check Pods Manifest.lock */,
+				2FF8C9B11EB8906800187D2B /* Sources */,
+				2FF8C9B21EB8906800187D2B /* Frameworks */,
+				2FF8C9B31EB8906800187D2B /* Resources */,
+				B023E1DD4266FED339A81B72 /* [CP] Embed Pods Frameworks */,
+				E7013CCC187A9B76230410C5 /* [CP] Copy Pods Resources */,
+				899804787093B992EAA77BF8 /* 📦 Embed Pods Frameworks */,
+				2C35066D897640AC20B461D1 /* 📦 Copy Pods Resources */,
+				2F551B031EFBDAD9005BD5E0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ROCKSTARS;
+			productName = ROCKSTARS;
+			productReference = 2FF8C9B51EB8906800187D2B /* ROCKSTARS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FF8C9C81EB8906900187D2B /* ROCKSTARSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF8C9E01EB8906900187D2B /* Build configuration list for PBXNativeTarget "ROCKSTARSTests" */;
+			buildPhases = (
+				C9C2F66A6C10867294CD92E8 /* [CP] Check Pods Manifest.lock */,
+				65CF3ABD51B8EA648B141CBD /* [CP] Check Pods Manifest.lock */,
+				2FF8C9C51EB8906900187D2B /* Sources */,
+				2FF8C9C61EB8906900187D2B /* Frameworks */,
+				2FF8C9C71EB8906900187D2B /* Resources */,
+				C8E06EB184980AF78E359BCB /* [CP] Embed Pods Frameworks */,
+				C5EDD2BBAD7947247947CBE0 /* [CP] Copy Pods Resources */,
+				C9888800798A596BCFAA5189 /* 📦 Embed Pods Frameworks */,
+				51DC58AB63845C3000AB2F77 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF8C9CB1EB8906900187D2B /* PBXTargetDependency */,
+			);
+			name = ROCKSTARSTests;
+			productName = ROCKSTARSTests;
+			productReference = 2FF8C9C91EB8906900187D2B /* ROCKSTARSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FF8C9D31EB8906900187D2B /* ROCKSTARSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF8C9E31EB8906900187D2B /* Build configuration list for PBXNativeTarget "ROCKSTARSUITests" */;
+			buildPhases = (
+				04F585A00F1402A18234835F /* [CP] Check Pods Manifest.lock */,
+				5A8EEE2DC9FF40D3758AFD1F /* [CP] Check Pods Manifest.lock */,
+				2FF8C9D01EB8906900187D2B /* Sources */,
+				2FF8C9D11EB8906900187D2B /* Frameworks */,
+				2FF8C9D21EB8906900187D2B /* Resources */,
+				E65A2686EF3AEA4E61EF6DD4 /* [CP] Copy Pods Resources */,
+				C296200D83D0717AD847A300 /* [CP] Embed Pods Frameworks */,
+				E9221CC7D0544C73B65BED7E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF8C9D61EB8906900187D2B /* PBXTargetDependency */,
+			);
+			name = ROCKSTARSUITests;
+			productName = ROCKSTARSUITests;
+			productReference = 2FF8C9D41EB8906900187D2B /* ROCKSTARSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FF8C9AD1EB8906800187D2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SoftProdigy;
+				TargetAttributes = {
+					2FF8C9B41EB8906800187D2B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 46SXU3TBJP;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					2FF8C9C81EB8906900187D2B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4Q92Z86L4P;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FF8C9B41EB8906800187D2B;
+					};
+					2FF8C9D31EB8906900187D2B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4Q92Z86L4P;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FF8C9B41EB8906800187D2B;
+					};
+				};
+			};
+			buildConfigurationList = 2FF8C9B01EB8906800187D2B /* Build configuration list for PBXProject "ROCKSTARS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FF8C9AC1EB8906800187D2B;
+			productRefGroup = 2FF8C9B61EB8906800187D2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FF8C9B41EB8906800187D2B /* ROCKSTARS */,
+				2FF8C9C81EB8906900187D2B /* ROCKSTARSTests */,
+				2FF8C9D31EB8906900187D2B /* ROCKSTARSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF8C9B31EB8906800187D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F20EA4F1EDFDBF60099CD56 /* Tutorial.storyboard in Resources */,
+				2FF8C9C01EB8906900187D2B /* Assets.xcassets in Resources */,
+				2FE16E471ECC7FAD00179B97 /* Cairo-SemiBold.ttf in Resources */,
+				2FCA38DD1ECDD73B00EB7F70 /* Dashboard_Venue.storyboard in Resources */,
+				2FE16E411ECC7FAD00179B97 /* Cairo-Black.ttf in Resources */,
+				2FE16E421ECC7FAD00179B97 /* Cairo-Black.ttf.html in Resources */,
+				2F6AFC151ED4027300120E76 /* Launch Screen.storyboard in Resources */,
+				2FE16E461ECC7FAD00179B97 /* Cairo-Regular.ttf in Resources */,
+				2FE16E431ECC7FAD00179B97 /* Cairo-Bold.ttf in Resources */,
+				2FE16E451ECC7FAD00179B97 /* Cairo-Light.ttf in Resources */,
+				2F2DC6231ECF1F780014DAED /* Dashboard_User.storyboard in Resources */,
+				2FE16E441ECC7FAD00179B97 /* Cairo-ExtraLight.ttf in Resources */,
+				2F0DA57D1ED56AAD00DBFD54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF8C9C71EB8906900187D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF8C9D21EB8906900187D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04F585A00F1402A18234835F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C35066D897640AC20B461D1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARS/Pods-ROCKSTARS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F551B031EFBDAD9005BD5E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 7b880a28ef2f5230039743c784f240c1e2838998 e103e13de6c3b9cffe649b64e333a5bfa04fb629b11ea417e2947461d50d89ed";
+		};
+		3C1BA485FB67E5F033C3583C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51DC58AB63845C3000AB2F77 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARSTests/Pods-ROCKSTARSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8EEE2DC9FF40D3758AFD1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65CF3ABD51B8EA648B141CBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		899804787093B992EAA77BF8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARS/Pods-ROCKSTARS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE2E9D56AFFCF6BE335D632 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B023E1DD4266FED339A81B72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARS/Pods-ROCKSTARS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C296200D83D0717AD847A300 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARSUITests/Pods-ROCKSTARSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EDD2BBAD7947247947CBE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARSTests/Pods-ROCKSTARSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E06EB184980AF78E359BCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARSTests/Pods-ROCKSTARSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9888800798A596BCFAA5189 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARSTests/Pods-ROCKSTARSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C2F66A6C10867294CD92E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E65A2686EF3AEA4E61EF6DD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARSUITests/Pods-ROCKSTARSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7013CCC187A9B76230410C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARS/Pods-ROCKSTARS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9221CC7D0544C73B65BED7E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ROCKSTARSUITests/Pods-ROCKSTARSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FF8C9B11EB8906800187D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7DDF731EC0A0B9005BB7DE /* Rating_RegisterVC.swift in Sources */,
+				2F083C1F1EC5C82D0035C574 /* Reach.swift in Sources */,
+				2FE16E361ECC681600179B97 /* JVFloatLabeledTextField.m in Sources */,
+				2F09F3691EC96994009C9F0A /* SearchViewCell.swift in Sources */,
+				2F6380231EF246D000513B46 /*  RatingViewController.swift in Sources */,
+				2F0DA5801ED56DBC00DBFD54 /* EditProfileVenueVC.swift in Sources */,
+				2FA070F31EDEB321006A5C26 /* Horizental_spritis.swift in Sources */,
+				2F7153A01EBB363200ACB4B6 /* CommonFunctions.swift in Sources */,
+				2F2DF4781EC43BAF00799BD0 /* LoginVC.swift in Sources */,
+				031310871ECD65EB006EF97E /* ServerRequest.swift in Sources */,
+				F0D76E211EC9A608004899F5 /* DrawerViewController.swift in Sources */,
+				2F1A21251EF1498E000F6C5E /* WithDrawVC.swift in Sources */,
+				2F3F86FF1ED8054200F88316 /* ApplicantListVC.swift in Sources */,
+				2F2DF4821EC4663B00799BD0 /* ForgotVC.swift in Sources */,
+				2F094DB31F0E087E00B58889 /* Print.swift in Sources */,
+				2F2DC6211ECF1E140014DAED /* RegisterVC.swift in Sources */,
+				2F6033351ED6DFC600C9BC0C /* ActivityVenueVC.swift in Sources */,
+				2F2181741F0B6E8000DE47B8 /* ExtensionsClass.swift in Sources */,
+				2F0DA5891ED5BD6000DBFD54 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				2FD6D5831EDD74E20056B620 /* Horizental_cockTail.swift in Sources */,
+				2F0DA5811ED56DBC00DBFD54 /* Profile_VenueVC.swift in Sources */,
+				2F7153A41EBB454900ACB4B6 /* B68UIFloatLabelTextField.swift in Sources */,
+				2F8E61191EBB27AE00C6727C /* Constants.swift in Sources */,
+				2F333A6B1EDFDD6100946EBE /* SearchAcceptedVenueInfoVC.swift in Sources */,
+				2FECE6681ED6C7CD00DE45A2 /* Home_VenueVC.swift in Sources */,
+				2F63CE4E1F1CAC67001C18C1 /* ApplicantProfileVC.swift in Sources */,
+				2F2DF4841EC467E500799BD0 /* Rating_KeepSmil_RegisterVC.swift in Sources */,
+				2F2DF47E1EC4568600799BD0 /* Register_Data.swift in Sources */,
+				2FA667C91EDC505100DF1ACA /* ApplyJobVC.swift in Sources */,
+				2F3688A61EEFBA9F00FFAD16 /* VenueJob_AdvertiseVC.swift in Sources */,
+				F0D76E2D1EC9D9C6004899F5 /* FloatRatingView.swift in Sources */,
+				2F333A6F1EE0014600946EBE /* RockStarProfileVenue.swift in Sources */,
+				2FE16E371ECC681600179B97 /* JVFloatLabeledTextView.m in Sources */,
+				2FE16E381ECC681600179B97 /* NSString+TextDirectionality.m in Sources */,
+				2F12A14A1ED6A1E400F31C48 /* VenueJob_ActiveVC.swift in Sources */,
+				2F7DDF711EC09F63005BB7DE /* NapySlider.swift in Sources */,
+				F0D76E271EC9BD26004899F5 /* Reachability.swift in Sources */,
+				2FCA38E71ECDDB2D00EB7F70 /* Home_UserVC.swift in Sources */,
+				F0D76E1F1EC9A5D8004899F5 /* SSASideMenu.swift in Sources */,
+				2FFF9CFD1EF4088E00D55F06 /* DisablePasteTextField.swift in Sources */,
+				2F154B371EE52AFC008BD26D /* Search_UserVC.swift in Sources */,
+				2F2DC6201ECF1E140014DAED /* Skills_RegisterVC.swift in Sources */,
+				2F63CE4D1F1CAC67001C18C1 /* RockStarProfileVC.swift in Sources */,
+				2FCA38E91ECDDB2D00EB7F70 /* Activity_UserVC.swift in Sources */,
+				2F6033381ED6F24F00C9BC0C /* VenuJob_ActiveCell.swift in Sources */,
+				2F12A1481ED6A1C000F31C48 /* VenueJobsVC.swift in Sources */,
+				2F0DA58A1ED5BD6000DBFD54 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				1466029D1F2B112E00B8DE98 /* UserPasswordVC.swift in Sources */,
+				031310891ECD660C006EF97E /* User.swift in Sources */,
+				2F1A21281EF14EA3000F6C5E /* JVFloatLabeledTextField1.m in Sources */,
+				F0D76E231EC9B38C004899F5 /* FilterViewController.swift in Sources */,
+				2FCA38E81ECDDB2D00EB7F70 /* Profile_UserVC.swift in Sources */,
+				03EA8AA21EE68FAC0071B697 /* TutorialViewController.swift in Sources */,
+				2F2DF47C1EC440D700799BD0 /* RegisterVenueVC.swift in Sources */,
+				2F7A69111EEEC35F0025F952 /* Facebook.swift in Sources */,
+				2F0DA5831ED56DD900DBFD54 /* RegisterEditVC.swift in Sources */,
+				2FD6D5811EDD504C0056B620 /* ApplicantCell.swift in Sources */,
+				2F333A691EDFDD5200946EBE /* SearchAcceptedEmpInfoVC.swift in Sources */,
+				2FF8C9B91EB8906800187D2B /* AppDelegate.swift in Sources */,
+				2F2517771EC34ABC001B416E /* Register_struct.swift in Sources */,
+				2FA070F51EDED667006A5C26 /* UpdateSkillsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF8C9C51EB8906900187D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF8C9CE1EB8906900187D2B /* ROCKSTARSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF8C9D01EB8906900187D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF8C9D91EB8906900187D2B /* ROCKSTARSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FF8C9CB1EB8906900187D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF8C9B41EB8906800187D2B /* ROCKSTARS */;
+			targetProxy = 2FF8C9CA1EB8906900187D2B /* PBXContainerItemProxy */;
+		};
+		2FF8C9D61EB8906900187D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF8C9B41EB8906800187D2B /* ROCKSTARS */;
+			targetProxy = 2FF8C9D51EB8906900187D2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FF8C9DB1EB8906900187D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rockstar App (46SXU3TBJP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Rockstar App (46SXU3TBJP)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 46SXU3TBJP;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6a925feb-93dd-4fb8-acb2-c6339636fb51";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FF8C9DC1EB8906900187D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rockstar App (46SXU3TBJP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Rockstar App (46SXU3TBJP)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 46SXU3TBJP;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "6a925feb-93dd-4fb8-acb2-c6339636fb51";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FF8C9DE1EB8906900187D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF89276ADB21431E0284F26 /* Pods-ROCKSTARS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ROCKSTARS/ROCKSTARS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rockstar App (46SXU3TBJP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Rockstar App (46SXU3TBJP)";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 46SXU3TBJP;
+				INFOPLIST_FILE = ROCKSTARS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rstar.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a925feb-93dd-4fb8-acb2-c6339636fb51";
+				PROVISIONING_PROFILE_SPECIFIER = RStarDistDec8;
+				SWIFT_OBJC_BRIDGING_HEADER = "ROCKSTARS/ROCKSTARS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2FF8C9DF1EB8906900187D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB899FBCFC6A905925D54E4 /* Pods-ROCKSTARS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ROCKSTARS/ROCKSTARS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rockstar App (46SXU3TBJP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Rockstar App (46SXU3TBJP)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 46SXU3TBJP;
+				INFOPLIST_FILE = ROCKSTARS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rstar.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6a925feb-93dd-4fb8-acb2-c6339636fb51";
+				PROVISIONING_PROFILE_SPECIFIER = RStarDistDec8;
+				SWIFT_OBJC_BRIDGING_HEADER = "ROCKSTARS/ROCKSTARS-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2FF8C9E11EB8906900187D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C49D99D7EBFBA1237DA7598 /* Pods-ROCKSTARSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Q92Z86L4P;
+				INFOPLIST_FILE = ROCKSTARSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoftProdigy.ROCKSTARSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROCKSTARS.app/ROCKSTARS";
+			};
+			name = Debug;
+		};
+		2FF8C9E21EB8906900187D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F854CA1ECF5CE42FE103622F /* Pods-ROCKSTARSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Q92Z86L4P;
+				INFOPLIST_FILE = ROCKSTARSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoftProdigy.ROCKSTARSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROCKSTARS.app/ROCKSTARS";
+			};
+			name = Release;
+		};
+		2FF8C9E41EB8906900187D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB020A0B20EE6CC933CABDE /* Pods-ROCKSTARSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4Q92Z86L4P;
+				INFOPLIST_FILE = ROCKSTARSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoftProdigy.ROCKSTARSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ROCKSTARS;
+			};
+			name = Debug;
+		};
+		2FF8C9E51EB8906900187D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393295BE8D6EA2C29A42B638 /* Pods-ROCKSTARSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4Q92Z86L4P;
+				INFOPLIST_FILE = ROCKSTARSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SoftProdigy.ROCKSTARSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ROCKSTARS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF8C9B01EB8906800187D2B /* Build configuration list for PBXProject "ROCKSTARS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF8C9DB1EB8906900187D2B /* Debug */,
+				2FF8C9DC1EB8906900187D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2FF8C9DD1EB8906900187D2B /* Build configuration list for PBXNativeTarget "ROCKSTARS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF8C9DE1EB8906900187D2B /* Debug */,
+				2FF8C9DF1EB8906900187D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2FF8C9E01EB8906900187D2B /* Build configuration list for PBXNativeTarget "ROCKSTARSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF8C9E11EB8906900187D2B /* Debug */,
+				2FF8C9E21EB8906900187D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2FF8C9E31EB8906900187D2B /* Build configuration list for PBXNativeTarget "ROCKSTARSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF8C9E41EB8906900187D2B /* Debug */,
+				2FF8C9E51EB8906900187D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FF8C9AD1EB8906800187D2B /* Project object */;
+}

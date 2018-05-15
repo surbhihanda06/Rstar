@@ -1,0 +1,6 @@
+framework module Pods_ROCKSTARS {
+  umbrella header "Pods-ROCKSTARS-umbrella.h"
+
+  export *
+  module * { export * }
+}

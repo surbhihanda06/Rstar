@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6b22b35a-ca9d-4075-8b68-8e2568379538++3746",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6b22b35a-ca9d-4075-8b68-8e2568379538++3746" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6b22b35a-ca9d-4075-8b68-8e2568379538++3746" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0721BBF6-2741-4289-9DB7-D668EC8E2FB0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6b22b35a-ca9d-4075-8b68-8e2568379538++3746" : "RStar13Sept\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ROCKSTARS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ROCKSTARS.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.10\/RStar\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6b22b35a-ca9d-4075-8b68-8e2568379538++3746"
+    }
+  ]
+}
